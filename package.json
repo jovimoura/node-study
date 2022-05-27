@@ -1,0 +1,15 @@
+{
+  "name": "estudos-rocketseat",
+  "version": "1.0.0",
+  "description": "estudos node 2022",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "jovimoura",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}

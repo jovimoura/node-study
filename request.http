@@ -1,0 +1,30 @@
+POST http://localhost:5000/products
+content-type: application/json
+
+{
+  "name": "teclado",
+  "price": 220
+}
+
+###
+
+GET http://localhost:5000/products
+
+###
+
+GET http://localhost:5000/products/f29cff8b-7abd-4f6d-8e39-2fb1222da285
+
+
+###
+
+PUT http://localhost:5000/products/25b03ee0-1136-4d32-804d-edc97c7bd717
+content-type: application/json
+
+{
+  "name": "mouse gamer redragon",
+  "price": 400
+}
+
+###
+
+DELETE http://localhost:5000/products/ba747119-1a84-4669-a4da-d207562b1708
